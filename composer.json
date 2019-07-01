@@ -1,0 +1,39 @@
+{
+    "name": "yusufkenar/crypto-currency-address-tools",
+    "type": "library",
+    "description": "Crypto Currency Address Converter and Validator",
+    "license": "MIT",
+    "keywords": [
+        "BCH",
+        "BTC",
+        "Crypto",
+        "Currency",
+        "Address",
+        "Converter",
+        "Validator",
+        "Validation",
+        "Laravel",
+        "Php"
+    ],
+    "authors": [
+        {
+            "name": "Yusuf KENAR",
+            "email": "kenaryusuf@gmail.com",
+            "homepage": "https://github.com/yusufkenar/crypto-currency-address-tools"
+        }
+    ],
+    "homepage": "https://github.com/yusufkenar/crypto-currency-address-tools",
+    "support": {
+        "issues": "https://github.com/yusufkenar/crypto-currency-address-tools/issues"
+    },
+    "require": {
+        "php": "^7.0",
+        "ext-bcmath": "*",
+        "ext-gmp": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "CryptoCurrencyAddressTools\\": "src/"
+        }
+    }
+}
